@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Maximilian Stump's Portfolio</title>
+  </head>
+  <body>
+      <header class="container-fluid back-image">
+        <section class="d-flex flex-column align-items-center">
+            <h1 id= "home" class="col-12 text-center text-white">Hello, I'm Maximilian Stump. </h1>
+            <h1 class="text-center text-white col-12">Welcome to my portfolio</h1>
+            <img id="profile" class="col-12" src="./assets/images/profile-picture.png"></img>
+    </section>
+      </header>
+    <!-- <nav class="container-fluid bg-dark text-white">
+      <div class="row justify-content-between">
+        <h1 id= "home" class="text-center text-md-left col-md-6">Maximilian Stump</h1>
+        <ul
+          class="
+            nav
+            justify-content-md-end justify-content-center
+            align-items-center
+            col-md-6">
+          <li class="nav-item">
+            <a class="nav-link text-reset" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-reset" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-reset" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-reset" href="">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+    <main class="container-fluid bg-light">
+      <section class="row">
+          <nav class="container-fluid bg-dark text-white sticky-top">
+            <div class="row justify-content-end">
+              <!-- <h1 id= "home" class="text-center text-md-left col-md-6">Maximilian Stump</h1> -->
+              <ul
+                class="
+                  nav
+                  justify-content-end
+                  align-items-center
+                  col">
+                <li class="nav-item">
+                  <a class="nav-link text-reset" href="#home" alt="Navigation to the home screen">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-reset" href="#about-me" alt="Navigation to my bio">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-reset" href="#work" alt="Navigation to my work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-reset" href="./assets/images/Max Stump Web Dev Resume.pdf" alt="Navigation to my resume" target="_blank">Resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <section id="about-me" class="col-md-2 mb-1 text-md-right text-left">
+          <h2>About Me</h2>
+        </section>
+        <section class="col-md-10">
+          <p>
+            Hello, this is my portfolio of my projects. My name is Maximilian,
+            but I go by Max. I graduated from Penn State with a nuclear
+            engineering degree in 2020. Due to the pandemic, I have struggled
+            finding a career in the nuclear energy field. In my free time, I
+            tried some free coding courses online and loved it. I decided to
+            change paths and pursue coding. In November of 2021, I enrolled into
+            a coding bootcamp at the University of Penn. Through this bootcamp,
+            I am learning the skills to become a full-stack web developer.
+          </p>
+          <br />
+          <p>
+            So far in my coding bootcamp, I have learned to apply HTML and CSS
+            to webpages. I have also learned how to deploy my created projects
+            using GitHub. Currently, the course is covering the basics of
+            Javascript to improve webpages functionality.
+          </p>
+        </section>
+        <section class="col-md-2 text-md-right text-left mt-3">
+          <h2>Work</h2>
+        </section>
+        <section class="col-md-10" id="work">
+          <section class="container-fluid">
+            <section class="row justify-content-between">
+              <section class="col-12 my-3">
+                  <div class="card">
+                    <img src="./assets/images/uvi-color.png" class="images img-fluid card-img">
+                    <aside class="card-img-overlay  text-white">
+                        <h4>Weather Dashboard</h4>
+                        <p>Javascript, Moment.js, </p>
+                    </aside>
+                  </div>
+              </section>
+              <section class="col-md-6 my-3">
+                <div class="card">
+                    <img src="./assets/images/image-creator.png" class="images img-fluid card-img">
+                    <aside class="card-img-overlay text-white">
+                        <h4>Social Media Image Creator</h4>
+                        
+                    </aside>
+                </div>
+              </section>
+              <section class="col-md-6 my-3">
+                <div class="card">
+                    <img src="./assets/images/maxstump13.github.io_day-planner_.png" class="images img-fluid card-img">
+                    <aside class="card-img-overlay text-white">
+                        <h4>Work Day Planner</h4>
+                    </aside>
+                </div>
+              </section>
+              <section class="col-md-6">
+                <div class="card">
+                    <img class="images img-fluid card-img">
+                    <aside class="card-img-overlay text-white">
+                        
+                    </aside>
+                </div>
+              </section>  
+              <section class="col-md-6">
+                <div class="card">
+                    <img class="images img-fluid card-img">
+                    <aside class="card-img-overlay text-white">
+                        
+                    </aside>
+                </div>
+              </section>
+            </section>
+          </section>
+        </section>
+        <!-- First flex box in row 3 -->
+        <section class="col-md-2 text-md-right text-left mt-4">
+          <h2>Contact Me</h2>
+        </section>
+        <!-- Second flexbox in row 1, id contact uses another flexbox to align list items evenly and switch vertically at small screens -->
+        <section class="col-md-10 align-self-center" id="contact">
+            <section class="container">
+                <section class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                            <span class="">484-482-8464</span>
+                            <a class="" href="https://www.linkedin.com/in/maximilian-stump-2aa6b01aa/"
+                            alt="">LinkedIn</a>
+                            <a class="" href="https://github.com/MaxStump13"
+                            alt="My GitHub profile"target="_blank">GitHub</a>
+                            <a class="" href="mailto:stumpmaximilian@gmail.com" alt="My email stumpmaximilian@gmail.com">stumpmaximilian@gmail.com</a>
+                </section>
+            </section>   
+        </section>
+      </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 1rem;
+}
+.back-image{
+    background-image: url("../images/background.jpg");
+}
+#profile{
+max-height: 250px;
+max-width: 200px;
+}
+.card-img-overlay{
+    right: unset;
+    bottom: unset;
+    max-width: 30%;
+    background-color: blue;
+    padding: 10px;
+}
+.images{
+    border: 5px solid blue;
+    filter: blur(2px);
+}
+.images:hover{
+    filter: none;
+}
+main a{
+    color:black;
+    
+}
+.col-md-2{
+border-right:4px solid black;
+}
+
+@media(max-width : 767px){
+    .col-md-2{
+        border-right:none;
+    }
+    h2{
+        border-bottom: 5px solid black;
+    }
+
+}
