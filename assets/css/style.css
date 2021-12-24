@@ -40,12 +40,19 @@ main a{
 border-right:4px solid black;
 }
 #weather{
-    height: 450px
+    height: 650px
 }
 #day-p,#img-ed{
-    height:350px;
+    height:300px;
 }
-
+@media(min-width: 1200px){
+    #day-p, #img-ed{
+        height: 400px;
+    }
+    #weather{
+        height: 750px;
+    }
+}
 
 @media(max-width : 767px){
     .col-md-2{

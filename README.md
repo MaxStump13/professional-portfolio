@@ -15,7 +15,7 @@ N/A
 
 ## Usage
 Here is the deployed link to my portfolio. [My portfolio](https://maxstump13.github.io/professional-portfolio/) Below is what the site looks like on screens larger than 768px and screens smaller than 768px. 
-![Screenshot of my portfolio above 768px](./assets/images/full-size.png)
+![Screenshot of my portfolio above 768px](./assets/images/fullSize.png)
 ![Screenshot of my portfolio under 768px](./assets/images/mobile.png)
 The navigation follows at the top as you scroll down. The images are clickable to open a dropdown menu. These menus have the links to the repos and the deployed applications. These features are displayed below. 
 ![Screenshot of a dropdown menu and the sticky nav bar](./assets/images/dropdown.png)
