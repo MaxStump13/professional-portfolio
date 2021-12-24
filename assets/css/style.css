@@ -39,6 +39,13 @@ main a{
 .col-md-2{
 border-right:4px solid black;
 }
+#weather{
+    height: 450px
+}
+#day-p,#img-ed{
+    height:350px;
+}
+
 
 @media(max-width : 767px){
     .col-md-2{
@@ -47,6 +54,9 @@ border-right:4px solid black;
     h2{
         border-bottom: 5px solid black;
     }
+   #weather,#day-p,#img-ed{
+       height:auto;
+   }
 
 }
 @media(max-width: 400px){
