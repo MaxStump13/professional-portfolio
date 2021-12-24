@@ -20,11 +20,11 @@
     <title>Maximilian Stump's Portfolio</title>
   </head>
   <body>
-      <header class="container-fluid back-image">
+      <header class="container-fluid back-image py-5">
         <section class="d-flex flex-column align-items-center">
             <h1 id= "home" class="col-12 text-center text-white">Hello, I'm Maximilian Stump. </h1>
             <h1 class="text-center text-white col-12">Welcome to my portfolio</h1>
-            <img id="profile" class="col-12" src="./assets/images/profile-picture.png"></img>
+            <img id="profile" class="col-12 py-2" src="./assets/images/profile-picture.png"alt="My profile picture"></img>
     </section>
       </header>
     <!-- <nav class="container-fluid bg-dark text-white">
@@ -51,15 +51,15 @@
         </ul>
       </div>
     </nav> -->
-    <main class="container-fluid bg-light">
+    <main class="container-fluid bg-light mb-4">
       <section class="row">
-          <nav class="container-fluid bg-dark text-white sticky-top">
+          <nav class="container-fluid bg-dark text-white sticky-top mb-3">
             <div class="row justify-content-end">
               <!-- <h1 id= "home" class="text-center text-md-left col-md-6">Maximilian Stump</h1> -->
               <ul
-                class="
+                class="justify-content-center
                   nav
-                  justify-content-end
+                  justify-content-md-end
                   align-items-center
                   col">
                 <li class="nav-item">
@@ -72,13 +72,16 @@
                   <a class="nav-link text-reset" href="#work" alt="Navigation to my work">Work</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link text-reset" href="#contact" alt="Navigation to my work">Contact Me</a>
+                  </li>
+                <li class="nav-item">
                   <a class="nav-link text-reset" href="./assets/images/Max Stump Web Dev Resume.pdf" alt="Navigation to my resume" target="_blank">Resume</a>
                 </li>
               </ul>
             </div>
           </nav>
-        <section id="about-me" class="col-md-2 mb-1 text-md-right text-left">
-          <h2>About Me</h2>
+        <section class="col-md-2 mb-1 text-md-right text-left">
+          <h2 id="about-me">About Me</h2>
         </section>
         <section class="col-md-10">
           <p>
@@ -95,67 +98,71 @@
           <p>
             So far in my coding bootcamp, I have learned to apply HTML and CSS
             to webpages. I have also learned how to deploy my created projects
-            using GitHub. Currently, the course is covering the basics of
-            Javascript to improve webpages functionality.
+            using GitHub. More recently, I have been utilizing JavaScript and 
+            some of its libraries and frameworks. With the help of third party 
+            APIs, I have been able to develop applications with live data. A few 
+            examples are down below in my work section. If you are interested in 
+            any of their repositories or deployed sites, click on the image for the links.
           </p>
         </section>
         <section class="col-md-2 text-md-right text-left mt-3">
-          <h2>Work</h2>
+          <h2 id="work">Work</h2>
         </section>
-        <section class="col-md-10" id="work">
+        <section class="col-md-10">
           <section class="container-fluid">
             <section class="row justify-content-between">
               <section class="col-12 my-3">
-                  <div class="card">
-                    <img src="./assets/images/uvi-color.png" class="images img-fluid card-img">
+                  <div class="card dropdown">
+                    <a data-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/images/uvi-color.png" alt="weather-dashboard home page"class="images img-fluid card-img">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="https://github.com/MaxStump13/weather-dashboard"  target="_blank" alt="weather-dashboard repo">Repo</a>
+                        <a class="dropdown-item" href="https://maxstump13.github.io/weather-dashboard/" target="_blank" alt="weather-dashboard deployed">Deployed</a>
+                    </div>
                     <aside class="card-img-overlay  text-white">
                         <h4>Weather Dashboard</h4>
-                        <p>Javascript, Moment.js, </p>
+                        <p>JavaScript, Moment.js, Bootstrap</p>
                     </aside>
                   </div>
               </section>
               <section class="col-md-6 my-3">
-                <div class="card">
-                    <img src="./assets/images/image-creator.png" class="images img-fluid card-img">
+                <div class="card dropdown">
+                    <a data-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/images/image-creator.png" alt = "image creator main page" class="images img-fluid card-img">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="https://github.com/bvasko/image-creator"  target="_blank" alt="image-creator repo">Repo</a>
+                        <a class="dropdown-item" href="https://bvasko.github.io/image-creator/" target="_blank" alt="image-creator deployed">Deployed</a>
+                    </div>
                     <aside class="card-img-overlay text-white">
                         <h4>Social Media Image Creator</h4>
-                        
+                        <p>JavaScript, materializeCSS, interact.js</p>
                     </aside>
                 </div>
               </section>
               <section class="col-md-6 my-3">
-                <div class="card">
-                    <img src="./assets/images/maxstump13.github.io_day-planner_.png" class="images img-fluid card-img">
+                <div class="card dropdown">
+                    <a data-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/images/maxstump13.github.io_day-planner_.png" alt= "work day planner main page" class="images img-fluid card-img">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="https://github.com/MaxStump13/day-planner"  target="_blank" alt="day-planner repo">Repo</a>
+                        <a class="dropdown-item" href="https://maxstump13.github.io/day-planner/" target="_blank" alt="day-planner deployed">Deployed</a>
+                    </div>
                     <aside class="card-img-overlay text-white">
                         <h4>Work Day Planner</h4>
-                    </aside>
-                </div>
-              </section>
-              <section class="col-md-6">
-                <div class="card">
-                    <img class="images img-fluid card-img">
-                    <aside class="card-img-overlay text-white">
-                        
-                    </aside>
-                </div>
-              </section>  
-              <section class="col-md-6">
-                <div class="card">
-                    <img class="images img-fluid card-img">
-                    <aside class="card-img-overlay text-white">
-                        
+                        <p>jQuery, Moment.js, Bootstrap</p>
                     </aside>
                 </div>
               </section>
             </section>
           </section>
         </section>
-        <!-- First flex box in row 3 -->
         <section class="col-md-2 text-md-right text-left mt-4">
-          <h2>Contact Me</h2>
+          <h2 id="contact">Contact Me</h2>
         </section>
-        <!-- Second flexbox in row 1, id contact uses another flexbox to align list items evenly and switch vertically at small screens -->
-        <section class="col-md-10 align-self-center" id="contact">
+        <section class="col-md-10 align-self-center">
             <section class="container">
                 <section class="d-flex flex-column flex-md-row align-items-center justify-content-between">
                             <span class="">484-482-8464</span>
